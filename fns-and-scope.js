@@ -3,8 +3,14 @@
 var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only parameter.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
-
   //Code Here
+  function  isTyler(){
+if('Tyler' === name){
+  return true;
+}
+return false;
+  }
+isTyler();
 
 //////////////////PROBLEM 2////////////////////
 
