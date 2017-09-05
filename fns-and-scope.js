@@ -30,13 +30,11 @@ isTyler();
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-function welcome(){
-   getName(){ 
-   var name = prompt("Enter name");
-  }
-  alert("Welcome, " + name);
+function welcome(){  
+  var result = getName();
+  alert("Welcome, " + result);
 }
-prompt();
+welcome();
 //////////////////PROBLEM 4////////////////////
 
 
