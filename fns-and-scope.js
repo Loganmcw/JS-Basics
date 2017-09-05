@@ -86,6 +86,7 @@ alert(newMyName);
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
+  function outFn
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
