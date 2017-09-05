@@ -16,9 +16,11 @@ isTyler();
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
-
   //Code Here
-
+  function getName(prompt) {
+    return getName;
+  }
+  prompt("Joe");
 
 //////////////////PROBLEM 3////////////////////
 
