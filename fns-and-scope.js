@@ -64,16 +64,19 @@ False, zero, NaN, null, or undefined.
 
   //Code Here
   function myName(name) {
-    var name = "Logan";
     return name;
   }
+  myName("Logan");
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-
+var newMyName = function myName(name) {
+  return name;
+}
+myName("Logan");
 //Now alert the result of invoking newMyName
-
+alert(newMyName);
 
 
 //////////////////PROBLEM 7////////////////////
