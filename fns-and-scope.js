@@ -20,7 +20,7 @@ isTyler();
   function getName(prompt) {
     return getName;
   }
-  prompt("Joe");
+  prompt();
 
 //////////////////PROBLEM 3////////////////////
 
