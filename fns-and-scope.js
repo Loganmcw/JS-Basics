@@ -18,7 +18,7 @@ isTyler();
 
   //Code Here
   function getName(prompt) {
-    return getName;
+    return prompt;
   }
   prompt();
 
