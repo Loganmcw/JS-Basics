@@ -62,7 +62,7 @@ False, zero, NaN, null, or undefined.
 
 //Create a function called myName that returns your name
 
-  //Code Here
+  //Code Here 
   function myName(name) {
     return name;
   }
@@ -71,10 +71,7 @@ False, zero, NaN, null, or undefined.
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-var newMyName = function myName(name) {
-  return name;
-}
-myName("Logan");
+var newMyName = myName;
 //Now alert the result of invoking newMyName
 alert(newMyName);
 
@@ -86,10 +83,16 @@ alert(newMyName);
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
-  function outFn
+  function outFn(){
+    return function(){
+      return myName;
+    }
+  }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
+  var innerFn = outFn;
 
 //Now invoke innerFn.
+innerFn();
